@@ -1,6 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Pins</h1>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">
+    <h1>Listing Pins</h1>
+  </div>
+</div>
 
 <table>
   <thead>
@@ -24,4 +29,4 @@
 
 <br>
 
-<%= link_to 'New Pin', new_pin_path %>
+<%= link_to 'New Pin', new_pin_path , class: "btn btn-primary" %>
